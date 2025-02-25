@@ -4,7 +4,8 @@
   "description": "A Telegram bot to remove image backgrounds.",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "build": "npm install"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
@@ -12,5 +13,8 @@
     "axios": "^1.4.0",
     "fs": "0.0.1-security",
     "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
